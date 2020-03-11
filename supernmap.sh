@@ -21,7 +21,3 @@ eval $ALIVE
 IPS="cat temp | grep 'Nmap scan report' | awk '{ print \$5 }' > IPs.txt"
 eval $IPS
 rm -rf temp
-
-# do a quick nmap of important ports on these hosts
-#NMAP="nmap -p 80,443,8080,8443,139,445,21,22,23 -iL IPs.txt -oN nmap-spec-ports.txt"
-# eval $NMAP 
