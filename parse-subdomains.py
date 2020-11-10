@@ -15,8 +15,8 @@ for line in lines:
 	for item in templist:
 		cleanlist.append(item)
 
-
-r = re.compile("([a-z0-9]+[.])*adorebeauty.com.au")
+#update domain
+r = re.compile("([a-z0-9]+[.])*domain.com")
 
 newlist = list(filter(r.match, cleanlist))
 final_list = sorted(set(newlist))
