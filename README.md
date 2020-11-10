@@ -14,3 +14,5 @@ list-regions.sh: list ec2 instances per region for an AWS deployment. Useful if 
 change-ip.sh: change your mac, then get a new IP from DHCP
 
 sophos-to-firewall-audit.py: not useful at all, very niche scenario and absolutely disgusting script. Why did I not use a python HTTP parsing library you ask? Some things in life just cannot be explained. But here it is. In case you ever need to grab a HTML table from a Sophos firewall audit report and parse it into an open source format for review. 
+
+parse-subdomains.py: Use a regex in python to find subdomains for a specific TLD
